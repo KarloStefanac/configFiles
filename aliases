@@ -1,0 +1,8 @@
+alias ll='ls -al -h'
+#alias la='ls -A'
+#alias l='ls -CF'
+alias doom='~/.emacs.d/bin/doom'
+alias apt='sudo apt'
+alias dwm_make='sudo make clean install'
+alias ddwm='cd ~/Applications/dwm/'
+alias vim='sudo vim -S ~/.vimrc'
