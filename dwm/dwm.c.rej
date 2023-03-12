@@ -1,0 +1,11 @@
+--- dwm.c
++++ dwm.c
+@@ -659,7 +747,7 @@ configurenotify(XEvent *e)
+ 				for (c = m->clients; c; c = c->next)
+ 					if (c->isfullscreen)
+ 						resizeclient(c, m->mx, m->my, m->mw, m->mh);
+-				XMoveResizeWindow(dpy, m->barwin, m->wx, m->by, m->ww, bh);
++				resizebarwin(m);
+ 			}
+ 			focus(NULL);
+ 			arrange(NULL);
